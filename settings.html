@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>settings</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,200;1,300;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+     <!-- start sidebar-->
+        <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-c mt-0">Nivin</h3>
+        <ul>
+            <li>
+                <a class="aligne-items-c fs-14 c-black rad-6 p-10" href="index.html">
+                    <i class="fa-solid fa-chart-bar fa-fw"></i> 
+                    <span class="fs-14 m-l-5 hide-mobile">Dashboard</span> 
+                </a>
+            </li>
+            <li>
+                <a class="active aligne-items-c fs-14 c-black rad-6 p-10" href="settings.html">
+                    <i class="fa-solid fa-gear fa-fw"></i>
+                    <span class="fs-14 m-l hide-mobile">settings</span> 
+                </a>
+            </li>
+            <li>
+                <a class="  aligne-items-c fs-14 c-black rad-6 p-10" href="profile.html">
+                    <i class="fa-solid fa-user fa-fw"></i>
+                    <span class="fs-14 m-l-5 hi hide-mobile">Profile</span> 
+                </a>
+            </li>
+            <li>
+                <a class=" aligne-items-c fs-14 c-black rad-6 p-10" href="projects.html">
+                    <i class="fa-solid fa-diagram-project fa-fw"></i>
+                    <span class="fs-14 m-l-5 hide-mobile">Projects</span> 
+                
+                </a>
+            </li>
+            <li>
+                <a class=" aligne-items-c fs-14 c-black rad-6 p-10" href="courses.html">
+                    <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                    <span class="fs-14 m-l-5 hide-mobile">Courses</span> 
+                </a>
+            </li>
+            <li>
+                <a class=" aligne-items-c fs-14 c-black rad-6 p-10" href="friends.html">
+                    <i class="fa-solid fa-user-group  fa-fw"></i>
+                    <span class="fs-14 m-l-5 hide-mobile">friends</span> 
+                </a>
+            </li> 
+            <li>
+                <a class=" aligne-items-c fs-14 c-black rad-6 p-10" href="files.html">
+                    <i class="fa-solid fa-file fa-fw"></i>
+                    <span class="fs-14 m-l-5 hide-mobile">files</span> 
+                </a>
+            </li> 
+            <li>
+                <a class=" aligne-items-c fs-14 c-black rad-6 p-10" href="plans.html">
+                    <i class="fa-solid fa-file fa-fw"></i>
+                    <span class="fs-14 m-l-5 hide-mobile" >plans</span> 
+                </a>
+            </li> 
+
+        </ul>
+        </div>
+         <!-- end sidebar-->
+
+        <div class="content w-full">
+        <!--head start-->
+        <div class="head bg-white p-15 between_flex">
+            <div class="search p-relative">
+            <input class=" p-10 b-1 rad-10 m-l-5 " type="search" placeholder="tybe A keyword">
+
+        </div>
+            <div class="icons d-flex aligne-center">
+               <span class="notification p-relative">
+                <i class="fa-regular fa-bell fa-lg"></i>
+               </span>
+               <img class="style-img m-l-5" src="img/user1.png" alt="">
+                
+            </div>
+         </div>
+        <!-- end head -->
+        <h1 class="p-relative">settings</h1>
+        <div class="settings-page m-20 d-grid gap-20 grid-template-cl grid-template-cl-mobile">
+<!-- start setting box -->
+<div class="global-div">
+    <h2 class="global-h2">Site Controle</h2>
+    <p class="mt-0 mb-20 c-grey fs-14">Controle the website if there maintenance</p>
+    <div class="mb-15 between_flex">
+     <div>
+        <span>website controle</span>
+        <p class="c-grey mt-5 mb-0 fs-13">Open/Close website And Type The Reason</p>
+
+     </div>
+     <div>
+        <label>
+            <input class="toggle-checkbox " type="checkbox" checked>
+            <div class="toggle-switch"></div>
+          </label>
+        </div>
+    </div>
+    <textarea class="close-message p-10 rad-6 d-block w-full b-3c " placeholder="close nessage content"></textarea>
+</div>
+<!-- end setting box -->
+<!-- start setting box -->
+<div class="global-div">
+    <h2 class="global-h2">Generale Info </h2>
+    <p class="mt-0 mb-20 c-grey fs-15">Generale information About Your Account</p>
+    <div class="mb-15">
+        <label  class="fs-14 c-grey d-block mb-5" for="first">First Name</label>
+        <input
+        class="b3c p-10 rad-6 d-block w-full mr-10" 
+        type="text" 
+        id="first" 
+        placeholder="First Name"
+        />
+     
+</div>
+<div class="mb-15">
+    <label class="fs-14 c-grey d-block mb-5" for="Last">Last Name</label>
+    <input 
+    class=" b3c  p-10 d-block w-full mr-10" 
+    type="text" 
+    id="Last" 
+    placeholder="Last Name"
+    />
+</div>
+<div>
+    <label  class="fs-14 c-grey d-block mb-5" for="email">Email</label>
+    <input 
+    class="email b3c p-10 rad-6 d-block w-full mr-10" 
+    type="email" 
+    id="email" 
+    value="Ni@vin"
+    disabled
+    />
+ <a class="c-blue" href="#">Change</a>
+ </div>
+ </div>
+<!-- end setting box -->
+ <!-- start setting box -->       
+        <div class="global-div">
+            <h2 class="global-h2">Security Info</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">Security information the website </p>
+            <div class="sec-box mb-15 between_flex b-b3e pb-15">
+                <div>
+                <span>Passeword</span>
+                <p class="c-grey mt-5 mb-0 fs-13">Last Change on 22/18/2022</p>
+                </div>
+             <a class="button bg-blue c-white btn-shape" href="#">Change</a>
+            </div>
+            <div class="sec-box mb-15 between_flex b-b3e pb-15">
+                <div>
+                <span>Two-Factor</span>
+                <p class="c-grey mt-5 mb-0 fs-13 ">Enable/Disable The Factor</p>
+                </div>
+                <label>
+                    <input class=" toggle-checkbox" type="checkbox" checked>
+                    <div class="toggle-switch"></div>
+                  </label>
+            </div>
+            <div class="sec-box  between_flex pb-15">
+                <div>
+                <span>Devices</span>
+                <p class="c-grey mt-5 mb-0 fs-13">Check The login Devices</p>
+                </div>
+             <a class="bg-eee c-black btn-shape" href="#">Devices</a>
+            </div>
+            <!-- end setting box -->
+</div>
+ <!-- start setting box --> 
+<div class="social-boxes global-div">
+    <h2 class="global-h2">Social Info</h2>
+    <p class="mt-0 mb-20 c-grey fs-15">Social Media information </p>
+    <div class="d-flex aligne-center mb-15">
+      <i class="fa-brands fa-twitter flex_center c-grey"></i>
+      <input class="w-full" type="text" placeholder="Twitter Username">
+    </div>
+        <div class="d-flex aligne-center mb-15">
+            <i class="fa-brands fa-facebook-f flex_center c-grey"></i>
+            <input class="w-full" type="text" placeholder="Facebook Username">
+        </div>
+            <div class="d-flex aligne-center mb-15">
+                <i class="fa-brands fa-linkedin flex_center c-grey"></i>
+                <input class="w-full" type="text" placeholder="Linkedin Username">
+            </div>
+                <div class="d-flex aligne-center mb-15">
+                    <i class="fa-brands fa-youtube flex_center c-grey"></i>
+                    <input class="w-full" type="text" placeholder="youtube Username">
+                </div>
+</div>
+<!-- end setting box -->
+ <!-- start setting box --> 
+ <div class="widgets-control global-div">
+    <h2 class="global-h2">Widgets Control</h2>
+    <p class="mt-0 mb-20 c-grey fs-15">Show/Hide Widgets </p>
+    <div class=" control d-flex aligne-center mb-15">
+     <input type="checkbox" id="one" checked>
+     <label for="one">Quick Draft</label>
+    </div>
+    <div class=" control d-flex aligne-center mb-15">
+        <input type="checkbox" id="two" checked>
+        <label for="two">Yearly Targets</label>
+       </div>
+       <div class=" control d-flex aligne-center mb-15">
+        <input type="checkbox" id="three">
+        <label for="three">Latest Tasks</label>
+       </div>
+       <div class=" control d-flex aligne-center mb-15">
+        <input type="checkbox" id="four">
+        <label for="four">Latest News</label>
+       </div>
+       <div class=" control d-flex aligne-center mb-15">
+        <input type="checkbox" id="five">
+        <label for="five">Tickets Statistics</label>
+       </div>
+
+ </div>
+<!-- end setting box -->
+<!-- start setting box --> 
+<div class="backup-control global-div">
+    <h2 class="global-h2">backup Manager</h2>
+    <p class="mt-0 mb-20 c-grey fs-15">Show/Hide Widgets </p>
+    <div class=" date d-flex aligne-center mb-15">
+     <input type="radio" name="time" id="daily" checked />
+     <label for="daily">Daily</label>
+    </div>
+    <div class=" date d-flex aligne-center mb-15">
+        <input type="radio" name="time" id="weekly" />
+        <label for="weekly">Weekly</label>
+    </div>
+       <div class=" date d-flex aligne-center mb-15">
+        <input type="radio" name="time" id="monthly" />
+        <label for="monthly">Monthly</label>
+    </div>
+   
+    <div class="servers d-flex aligne-center txt-c b-t3e pt-20">
+
+<input type="radio" name="servers" id="server-one">
+<div class="server mb-15 rad-10 w-full p-relative b3e">
+    <label class="d-block m-15" for="server-one">
+    <i class="fa-solid fa-server d-block mb-10"></i>Megaman</label>
+</div>
+<input type="radio" name="servers" id="server-two" checked>
+<div class="server mb-15 rad-10 w-full p-relative b3e">
+    <label class="d-block m-15" for="server-two">
+    <i class="fa-solid fa-server d-block mb-10"></i>Zero</label>
+</div>
+<input type="radio" name="servers" id="server-three">
+<div class="server mb-15 rad-10 w-full p-relative b3e">
+    <label class="d-block m-15" for="server-three">
+    <i class="fa-solid fa-server d-block mb-10"></i>Sigma</label>
+</div>
+    </div>
+    <!-- end setting box -->
+    </div>
+    </div>
+</div>  
+</body>
+</html>
+    
+  
+
+ 
+   
+       
